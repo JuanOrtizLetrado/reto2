@@ -19,6 +19,7 @@ public class Reto2 {
     public static void main(String[] args) {
         Jugador gamer = new Jugador("Juan",'m',0,5,100);
         Enemigo enemy = new Enemigo("Bitter",'f',0,0,80);
+        Enemigo enemy2 = new Enemigo("Sofia",'f',0,0,80);
         System.out.println(" 1.\n "+gamer+"\n \n"+enemy+"\n");
         gamer.golpear(enemy);
         gamer.golpear(enemy);
