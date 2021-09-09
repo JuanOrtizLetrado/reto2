@@ -17,7 +17,7 @@ public class Reto2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Jugador gamer = new Jugador("Explorador",'m',0,5,100);
+        Jugador gamer = new Jugador("Juan",'m',0,5,100);
         Enemigo enemy = new Enemigo("Bitter",'f',0,0,80);
         System.out.println(" 1.\n "+gamer+"\n \n"+enemy+"\n");
         gamer.golpear(enemy);
